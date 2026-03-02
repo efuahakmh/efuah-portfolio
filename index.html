@@ -4,9 +4,166 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Efuah — Portfolio</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+  <meta name="description" content="Efuah's CS + Creative Tech portfolio hub." />
 </head>
-<body style="background:#0b0c10;color:#eaeef7;font-family:system-ui;padding:24px;">
-  <h1>Efuah Portfolio ✅</h1>
-  <p>If you see this styled page (dark background), GitHub Pages is rendering correctly.</p>
+<body>
+  <header class="wrap">
+    <div class="top">
+      <div>
+        <h1>Efuah</h1>
+        <p class="sub">CS + Creative Tech • Interactive web projects + full-stack Flask</p>
+      </div>
+      <div class="links">
+        <a class="pill" href="https://github.com/efuahakmh" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="pill" href="#projects">Projects</a>
+      </div>
+    </div>
+
+    <section class="hero card">
+      <h2>About</h2>
+      <p>
+        I'm a CS student building interactive experiences with JavaScript and creative coding, plus full-stack apps with Flask + SQLite.
+        This page links to my projects, repos, and live demos.
+      </p>
+      <div class="meta">
+        <span class="tag">JavaScript</span>
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">Flask</span>
+        <span class="tag">SQLite</span>
+        <span class="tag">Creative Coding</span>
+        <span class="tag">UI/UX</span>
+      </div>
+    </section>
+  </header>
+
+  <main class="wrap" id="projects">
+    <div class="sectionHead">
+      <h2>Projects</h2>
+      <p class="sub">Click “Live” if deployed, or “Repo” to view the code.</p>
+    </div>
+
+    <section class="grid">
+      <!-- Mood Journal -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Mood Journal</h3>
+          <span class="badge">Flask + SQLite</span>
+        </div>
+        <p class="muted">
+          Full-stack CRUD mood journal with persistence and REST API.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-mood-journal" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your Render link when deployed">Live</a>
+        </div>
+      </article>
+
+      <!-- Argument Arena -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Argument Arena</h3>
+          <span class="badge">JS Game</span>
+        </div>
+        <p class="muted">
+          Turn-based debate game with score tracking and dynamic UI.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-argument-arena" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your GitHub Pages link when deployed">Live</a>
+        </div>
+      </article>
+
+      <!-- Data Viz Dashboard -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Data Viz Dashboard</h3>
+          <span class="badge">Interactive Charts</span>
+        </div>
+        <p class="muted">
+          Data visualization with filtering and hover interactions.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-data-viz-dashboard" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your GitHub Pages link when deployed">Live</a>
+        </div>
+      </article>
+
+      <!-- Audio Visualizer -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Audio Visualizer</h3>
+          <span class="badge">Canvas / Creative Coding</span>
+        </div>
+        <p class="muted">
+          Audio-reactive visuals using real-time input and animation logic.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-audio-visualizer" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your GitHub Pages link when deployed">Live</a>
+        </div>
+      </article>
+
+      <!-- Photo Gallery -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Interactive Photo Gallery</h3>
+          <span class="badge">UI / UX</span>
+        </div>
+        <p class="muted">
+          Responsive gallery with hover effects and modal interactions.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-photo-gallery" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your GitHub Pages link when deployed">Live</a>
+        </div>
+      </article>
+
+      <!-- Creative Generator -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Creative Generator</h3>
+          <span class="badge">State + UI</span>
+        </div>
+        <p class="muted">
+          Mood→color or idea generator with dynamic UI updates and history.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-creative-generator" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your GitHub Pages link when deployed">Live</a>
+        </div>
+      </article>
+
+      <!-- Motion UI Lab -->
+      <article class="card proj">
+        <div class="projTop">
+          <h3>Motion UI Lab</h3>
+          <span class="badge">Micro-interactions</span>
+        </div>
+        <p class="muted">
+          Motion design + micro-interactions with accessibility considerations.
+        </p>
+        <div class="btnRow">
+          <a class="btn" href="https://github.com/efuahakmh/efuah-motion-ui" target="_blank" rel="noreferrer">Repo</a>
+          <a class="btn ghost" href="#" title="Add your GitHub Pages link when deployed">Live</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="card note">
+      <h2>How to view</h2>
+      <p class="muted">
+        As I deploy each project, I’ll replace the “Live” buttons with the correct links (GitHub Pages for frontend projects, Render for Flask).
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>© <span id="year"></span> Efuah</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
